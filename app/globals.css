@@ -2,26 +2,80 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  @font-face {
+    font-family: "Zeitung";
+    src: url("/fonts/ZeitungMonoPro.woff") format("woff");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Gilroy";
+    src: url("/fonts/Gilroy.woff") format("woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
   }
 }
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: linear-gradient(180deg, #fcfcfe 0%, #eff1f6 100%);
+}
+
+.bgColor {
+  background: linear-gradient(180deg, #fcfcfe 0%, #eff1f6 100%);
+}
+
+.divider {
+  background: linear-gradient(180deg, #fcfcfe 50%, #cdd5e9 90%);
+}
+
+.herobg {
+  background-image: linear-gradient(
+    to right top,
+    #e5e9f3,
+    #e0e5f1,
+    #dce1f0,
+    #d7deee,
+    #d3daec,
+    #d5dbed,
+    #d8dded,
+    #dadeee,
+    #e3e5f2,
+    #ecedf6,
+    #f4f4fa,
+    #fcfcfe
+  );
+}
+
+*:focus {
+  outline: none;
+  caret-color: #0f0518;
+}
+
+.circleFilt {
+  mix-blend-mode: color-dodge;
+}
+
+.rotateCircle {
+  mix-blend-mode: overlay;
+}
+
+.sectbg {
+  background-image: url("../assets/sectbg2.svg");
+  border-radius: 50%;
+  border: 0px solid rgba(255, 255, 255, 0.5);
+}
+
+.sectbgtwo {
+  background-image: url("../assets/pinkgradient.svg");
+  border-radius: 50%;
+  border: 0px solid rgba(255, 255, 255, 0.5);
+}
+
+.cardshadow {
+  box-shadow: 0px 8.91428px 38.6286px rgba(35, 16, 68, 0.04),
+    0px 2.6874px 15.7931px rgba(35, 16, 68, 0.0226),
+    0px 1.11621px 10.0286px rgba(35, 16, 68, 0.015),
+    0px 0.40371px 7.42857px rgba(35, 16, 68, 0.001);
 }
