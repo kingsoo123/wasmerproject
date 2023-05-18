@@ -19,7 +19,21 @@
   }
 }
 body {
-  background-image: linear-gradient(180deg, #fcfcfe 0%, #eff1f6 100%);
+  background-image: linear-gradient(
+    to bottom,
+    #fcfcfe,
+    #f4f4fa,
+    #ecedf6,
+    #e3e5f2,
+    #dadeee,
+    #d8dded,
+    #d5dbed,
+    #d3daec,
+    #d7deee,
+    #dce1f0,
+    #e0e5f1,
+    #e5e9f3
+  );
 }
 
 .bgColor {
