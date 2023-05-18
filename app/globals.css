@@ -37,7 +37,7 @@ body {
 }
 
 .bgColor {
-  background: linear-gradient(180deg, #fcfcfe 0%, #eff1f6 100%);
+  background: linear-gradient(180deg, #fcfcfe 100%, #eff1f6 0%);
 }
 
 .divider {
