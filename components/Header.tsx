@@ -9,8 +9,8 @@ import {
 } from "../components/ProductsDropdown";
 
 const Header = () => {
-  const [showdropdown, setShowdropdown] = useState(false);
-  const [position, setpPosition] = useState(28);
+  const [showdropdown, setShowdropdown] = useState<boolean>(false);
+  const [position, setpPosition] = useState<number>(0);
   return (
     <div className="fixed z-20 w-full flex justify-between bgColor">
       <div className="w-1/2 p-4 pl-8 flex space-x-4 items-center">
