@@ -27,7 +27,7 @@ const Cardtwo = () => {
         </div>
       </div>
       <div className="sm:w-[48%] w-[100%] h-[100%]">
-        <div className="w-[100%] flex-col  bg-black p-1 rounded-lg">
+        <div className="w-[100%] flex-col  bg-black p-1 rounded-t-lg">
           <p className="sm:text-2xl text-center leading-snug break-normal font-gilroy mt-5 text-white text-opacity-50">
             Welcome to the world&apos;s most popular website builder
           </p>
@@ -37,7 +37,7 @@ const Cardtwo = () => {
 
           <div className="w-full h-[1px] bg-white mt-[60px]" />
         </div>
-        <div className="w-full flex justify-center items-center mt-0 space-x-2 bg-white p-3">
+        <div className="w-full flex justify-center items-center mt-0 space-x-2 bg-white p-3 rounded-b-lg">
           <Image src={django} alt="wordpress" />
           <p className="sm:text-[24px] font-semibold leading-snug break-normal font-gilroy">
             django
