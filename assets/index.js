@@ -28,7 +28,6 @@ export { default as jsss } from "./jsss.svg";
 export { default as python } from "./python.svg";
 export { default as golang } from "./golang.svg";
 export { default as vercel } from "./vercel.svg";
-export { default as pinkgradient } from "./pinkgradient.svg";
 export { default as packagelogo } from "./packagelogo.svg";
 export { default as slantline } from "./slantline.svg";
 export { default as likes } from "./likes.svg";

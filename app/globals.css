@@ -64,15 +64,13 @@ body {
 }
 
 .sectbgtwo {
-  /* background-image: url("../assets/pinkgradient.svg"); */
-  background-image: linear-gradient(to right, #ffffff, #8f61be);
+  background-color: transparent;
   border-radius: 50%;
-  box-shadow: rgba(144, 56, 202, 0.56) 0px 22px 70px 4px;
+  box-shadow: 3px 13px 20px #b696d9, 20px 20px 40px #b696d9;
 }
 
 .sectbgthree {
-  /* background-image: url("../assets/pinkgradient.svg"); */
-  background-image: linear-gradient(to right, #ffffff, #e8c7a3);
+  background-color: transparent;
   border-radius: 50%;
   box-shadow: rgba(223, 200, 70, 0.56) 0px 22px 70px 4px;
 }
@@ -117,17 +115,6 @@ body {
   opacity: var(0.2);
 }
 
-/* .boxes::before {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  width: 90%;
-  height: 35%;
-  background: linear-gradient(40deg, #e8c7a3 30%, #b696d9 100%);
-  filter: blur(80px);
-  opacity: var(0.7);
-} */
-
 .boxes {
   box-shadow: 30px 30px 50px #b696d9, 30px -30px 50px #e8c7a3,
     -30px 30px 40px #a3c6ac, 30px 30px 50px #d1a299, 30px 30px 50px #b696d9;
@@ -135,4 +122,8 @@ body {
 
 .purple {
   box-shadow: 3px 13px 20px #b696d9, 20px 20px 40px #b696d9;
+}
+
+.orange {
+  box-shadow: 3px 13px 20px #e79187, 20px 20px 40px #e8c7a3;
 }

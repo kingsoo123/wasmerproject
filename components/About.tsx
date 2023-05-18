@@ -191,7 +191,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className=" w-full flex justify-center items-center">
+        <div className=" w-full flex justify-center items-center mt-[100px]">
           <div className="w-[80%] sectbgthree">
             <div className="w-full md:flex flex-row justify-between items-center space-x-4">
               {/* insert cards */}
@@ -201,8 +201,8 @@ const About = () => {
                 <PackageCard />
               </Carousel>
             </div>
-            <div className="w-full flex justify-center items-center mt-8">
-              <span className="w-[80%] sm:h-[118px] bg-[#0F0518] rounded-lg md:flex flex-row justify-between items-center p-5">
+            <div className="w-full flex justify-center items-center mt-8 orange">
+              <span className="w-[100%] sm:h-[118px] bg-[#0F0518] rounded-lg md:flex flex-row justify-between items-center p-5">
                 <p className="text-[22px] text-white">
                   All languages, fully containerize {"&"} collaborative
                 </p>
@@ -250,7 +250,7 @@ const About = () => {
             Above the clouds
           </p>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center ">
           <div className="w-[60%]">
             <p className="text-[#0E061A] text-[22px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
               Get the scalability of serverless and the reusability of cloud.
@@ -258,7 +258,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className=" w-full flex justify-center items-center">
+        <div className=" w-full flex justify-center items-center mt-[100px]">
           <div className="w-[70%] sectbgtwo">
             <div className="w-full flex justify-center items-center">
               {/* insert cards */}
