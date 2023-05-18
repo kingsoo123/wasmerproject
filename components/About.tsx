@@ -192,7 +192,7 @@ const About = () => {
           </div>
         </div>
         <div className=" w-full flex justify-center items-center">
-          <div className="w-[80%] sectbgtwo">
+          <div className="w-[80%] sectbgthree">
             <div className="w-full md:flex flex-row justify-around items-center gap-4">
               {/* insert cards */}
               <Carousel show={2.8} slide={3} swiping={true} infinite={true}>

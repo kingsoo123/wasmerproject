@@ -70,6 +70,24 @@ body {
   box-shadow: rgba(144, 56, 202, 0.56) 0px 22px 70px 4px;
 }
 
+.sectbgthree {
+  /* background-image: url("../assets/pinkgradient.svg"); */
+  background-image: linear-gradient(to right, #ffffff, #e8c7a3);
+  border-radius: 50%;
+  box-shadow: rgba(223, 200, 70, 0.56) 0px 22px 70px 4px;
+}
+
+.sectbgthree::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 50%;
+  height: 20%;
+  background: linear-gradient(-45deg, #e79187 30%, #e8c7a3 100%);
+  filter: blur(90px);
+  opacity: var(0.7);
+}
+
 .sectbgtwo::before {
   content: "";
   z-index: -1;
