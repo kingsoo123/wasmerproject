@@ -26,10 +26,10 @@ const About = () => {
     <div className="w-full flex-col justify-center items-center mt-[90px]">
       {/* create the apps */}
       <div className="w-full flex">
-        <div className="md:w-[70%] space-y-5 m-auto">
+        <div className="w-[70%] space-y-5 m-auto">
           {/* first span */}
-          <span className=" md:flex flex-row sm:space-x-4 justify-center items-center">
-            <p className="sm:text-[48px] text-[38px] font-semibold leading-snug break-normal font-gilroy tracking-wider">
+          <span className="w-full md:flex flex-row sm:space-x-4 justify-center items-center">
+            <p className="sm:text-[48px] text-[38px] font-semibold leading-snug break-normal font-gilroy tracking-wider text-center">
               Create apps that
             </p>
             <Button
@@ -39,7 +39,7 @@ const About = () => {
               imgsrc={WhiteArrow}
               imgsrctwo={Greenbar}
             />
-            <p className="sm:text-[48px] text-[38px] font-semibold leading-snug break-normal font-gilroy tracking-wider">
+            <p className="sm:text-[48px] text-[38px] font-semibold leading-snug break-normal font-gilroy tracking-wider text-center">
               everywhere.
             </p>
           </span>
@@ -52,13 +52,13 @@ const About = () => {
               imgsrc={WhiteArrow}
               imgsrctwo={Brownbar}
             />
-            <p className="sm:text-[48px] text-[38px] font-semibold leading-snug break-normal font-gilroy tracking-wider">
+            <p className="sm:text-[48px] text-[38px] font-semibold leading-snug break-normal font-gilroy tracking-wider text-center">
               and share with the community
             </p>
           </span>
           {/* third span */}
           <span className="md:flex flex-row sm:space-x-4 justify-center items-center m-auto">
-            <p className="sm:text-[48px] text-[38px] font-semibold leading-snug break-normal font-gilroy tracking-wider">
+            <p className="sm:text-[48px] text-[38px] font-semibold leading-snug break-normal font-gilroy tracking-wider text-center">
               and
             </p>
             <Button
@@ -68,7 +68,7 @@ const About = () => {
               imgsrc={WhiteArrow}
               imgsrctwo={Roundbar}
             />
-            <p className="sm:text-[48px] text-[38px] font-semibold leading-snug break-normal font-gilroy tracking-wider">
+            <p className="sm:text-[48px] text-[38px] font-semibold leading-snug break-normal font-gilroy tracking-wider text-center">
               to the edge, globally.
             </p>
           </span>
@@ -133,12 +133,14 @@ const About = () => {
                 className="w-[280px] h-[230px] circleFilt hidden md:flex flex-row"
               />
             </div>
-            <span className="w-[90%] sm:h-[118px] h-[200px] bg-[#0F0518] rounded-lg flex  justify-around items-center m-auto sm:-mt-[40px]">
+            <span className="w-[90%] sm:h-[118px] bg-[#0F0518] rounded-lg flex  justify-between items-center sm:m-auto sm:-mt-[40px] p-5">
               <p className="text-[22px] text-white">
                 Truly universal, runs everywhere {"&"} fast as native
               </p>
-              <div className="w-[54px] h-[54px] bg-white rounded-full flex items-center justify-center">
-                <Image src={Arrow} alt="leftside" />
+              <div className="sm:w-[70px] w-full flex justify-end">
+                <div className="w-[54px] h-[54px] bg-white rounded-full flex items-center justify-center">
+                  <Image src={Arrow} alt="leftside" />
+                </div>
               </div>
             </span>
           </div>
@@ -146,7 +148,7 @@ const About = () => {
         {/* this programming */}
         <div className="w-full flex-col justify-center items-center mt-[60px]">
           <div className="w-full flex justify-center items-center">
-            <div className="w-[30%]">
+            <div className="w-[30%] m-auto">
               <p className="text-[#0E061A] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
                 “This programming tool makes it easier for apps to work
                 anywhere”
@@ -154,7 +156,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="w-full flex justify-center items-center mt-4 opacity-25">
+          <div className="w-full flex justify-center items-center mt-4 opacity-25 m-auto">
             <Image src={vercel} alt="leftside" />
           </div>
         </div>
@@ -193,29 +195,31 @@ const About = () => {
               <PackageCard />
             </div>
             <div className="w-full flex justify-center items-center mt-8">
-              <span className="w-[90%] h-[118px] bg-[#0F0518] rounded-lg flex justify-around items-center ">
+              <span className="w-[90%] sm:h-[118px] bg-[#0F0518] rounded-lg md:flex flex-row justify-between items-center p-5">
                 <p className="text-[22px] text-white">
                   All languages, fully containerize {"&"} collaborative
                 </p>
-                <div className="w-[54px] h-[54px] bg-white rounded-full flex items-center justify-center">
-                  <Image src={Arrow} alt="leftside" />
+                <div className="sm:w-[70px] w-full flex justify-end">
+                  <div className="w-[54px] h-[54px] bg-white rounded-full flex items-center justify-center">
+                    <Image src={Arrow} alt="leftside" />
+                  </div>
                 </div>
               </span>
             </div>
           </div>
         </div>
         {/* this programming */}
-        <div className="w-full flex-col justify-center items-center mt-[60px]">
+        <div className="w-full flex-col justify-center items-center mt-[90px]">
           <div className="w-full flex justify-center items-center">
-            <div className="w-[30%]">
-              <p className="text-[#0E061A] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
+            <div className="w-[30%] m-auto">
+              <p className="text-[#0E061A] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50 text-center">
                 “This programming tool makes it easier for apps to work
                 anywhere”
               </p>
             </div>
           </div>
 
-          <div className="w-full flex justify-center items-center mt-4 opacity-25">
+          <div className="w-full flex justify-center items-center mt-4 opacity-25 m-auto">
             <Image src={vercel} alt="leftside" />
           </div>
         </div>
@@ -253,26 +257,28 @@ const About = () => {
               {/* insert cards */}
               <Cardtwo />
             </div>
-            <div className="flex w-[full] justify-center items-center">
-              <div className="md:flex flex-row w-[80%] justify-around items-center">
-                <p className="text-[#0E061A] text-[22px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
+            <div className="flex w-[full] justify-center items-center mt-4">
+              <div className="flex sm:w-[80%] w-[100%] justify-between items-center">
+                <p className="text-[#0E061A] sm:text-2xl text-[16px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
                   No servers to maintain
                 </p>
-                <p className="text-[#0E061A] text-[22px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
+                <p className="text-[#0E061A] sm:text-2xl text-[16px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
                   Instant cold starts
                 </p>
-                <p className="text-[#0E061A] text-[22px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
+                <p className="text-[#0E061A] sm:text-2xl text-[16px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
                   Infinite scalability
                 </p>
               </div>
             </div>
             <div className="w-full flex justify-center items-center mt-8">
-              <span className="w-[90%] h-[118px] bg-[#0F0518] rounded-lg flex justify-around items-center">
-                <p className="text-[22px] text-white">
+              <span className="w-[90%] sm:h-[118px] bg-[#0F0518] rounded-lg md:flex flex-row justify-between items-center p-5">
+                <p className="text-2xl text-white">
                   Faster, cheaper {"&"} indefinitely scalable
                 </p>
-                <div className="w-[54px] h-[54px] bg-white rounded-full flex items-center justify-center">
-                  <Image src={Arrow} alt="leftside" />
+                <div className="sm:w-[70px] w-full flex justify-end">
+                  <div className="w-[54px] h-[54px] bg-white rounded-full flex items-center justify-center ">
+                    <Image src={Arrow} alt="leftside" />
+                  </div>
                 </div>
               </span>
             </div>
@@ -281,7 +287,7 @@ const About = () => {
         {/* this programming */}
         <div className="w-full flex-col justify-center items-center mt-[60px]">
           <div className="w-full flex justify-center items-center">
-            <div className="w-[30%]">
+            <div className="w-[30%] m-auto">
               <p className="text-[#0E061A] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
                 “This programming tool makes it easier for apps to work
                 anywhere”
@@ -289,7 +295,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="w-full flex justify-center items-center mt-4 opacity-25">
+          <div className="flex justify-center items-center mt-4 opacity-25 m-auto">
             <Image src={vercel} alt="leftside" />
           </div>
         </div>

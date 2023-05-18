@@ -18,7 +18,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className="md:w-[100%] pt-[250px] flex-col justify-center items-center w-[100%]">
+    <div className="md:w-[100%] pt-[200px] flex-col justify-center items-center w-[100%]">
       <div className="md:w-full w-[100%] flex justify-center items-center">
         <div className="md:w-[40%]  w-[90%]">
           <h1 className="sm:text-[52px] text-[44px] font-semibold leading-snug break-normal font-gilroy">
