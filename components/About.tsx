@@ -110,8 +110,8 @@ const About = () => {
                 className="sm:w-[280px] w-[100px] h-[230px] rotateCircle"
               />
               <div className="w-full flex-col">
-                <span className="flex justify-center items-center flex-wrap mt-[40px]">
-                  <div className="sm:w-[35%] w-[50%] flex justify-center items-center">
+                <span className="flex justify-center items-center  mt-[40px]">
+                  <div className="sm:w-[35%] w-[30%] flex justify-center items-center space-x-2">
                     <Image src={docker} alt="leftside" />
                     <Image src={workflow} alt="leftside" />
                     <Image src={cobols} alt="leftside" />
