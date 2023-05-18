@@ -24,7 +24,11 @@ const Header = () => {
       <div className="w-1/2 p-4 pl-8 flex space-x-4 items-center">
         <Image src={Logo} alt="Picture of the logo" />
         <div className="hidden w-[378px] h-[36px] rounded bg-[#DDDEE5] md:flex flex-row items-center pl-2 space-x-2">
-          <Image src={Search} alt="Picture of the logo" />
+          <Image
+            src={Search}
+            alt="Picture of the logo"
+            className="opacity-25"
+          />
           <input
             type="text"
             placeholder="Search for packages"
