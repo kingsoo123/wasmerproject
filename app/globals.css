@@ -41,7 +41,7 @@ body {
 }
 
 .divider {
-  background: linear-gradient(180deg, #fcfcfe 50%, #cdd5e9 90%);
+  background: linear-gradient(180deg, #fcfcfe 30%, #cdd5e9 50%);
 }
 
 .herobg {

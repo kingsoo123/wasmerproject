@@ -5,7 +5,7 @@ import { Logo, twitter, linkedin, facebook, youtube } from "../assets";
 const Footer = () => {
   return (
     <footer className="w-full mt-[50px]">
-      <div className="w-full md:h-[300px] md:flex flex-row justify-between">
+      <div className="w-full md:h-[300px] flex flex-col-reverse sm:flex-row justify-between">
         <div className="md:w-[40%] w-[100%] h-full p-5 space-y-5">
           <Image src={Logo} alt="Picture of the logo" />
           <p className="leading-snug break-normal font-gilroy mt-4 text-black tracking-widest text-opacity-50">
