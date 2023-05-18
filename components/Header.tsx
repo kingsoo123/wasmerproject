@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { Logo, Search, burger } from "../assets";
 import Button from "./Button";
@@ -7,10 +7,18 @@ import {
   DevelopersDropdown,
   ProductsDropdown,
 } from "../components/ProductsDropdown";
+import { JsxElement } from "typescript";
 
 const Header = () => {
   const [showdropdown, setShowdropdown] = useState<boolean>(false);
   const [position, setpPosition] = useState<number>(0);
+  const [comp, setComp] = useState<any>("");
+
+  useEffect(() => {
+    position === 28
+      ? setComp(<ProductsDropdown />)
+      : setComp(<DevelopersDropdown />);
+  }, [position]);
   return (
     <div className="fixed z-20 w-full flex justify-between bgColor">
       <div className="w-1/2 p-4 pl-8 flex space-x-4 items-center">
@@ -55,7 +63,7 @@ const Header = () => {
           onMouseEnter={() => setShowdropdown(true)}
           onMouseLeave={() => setShowdropdown(false)}
         >
-          {position === 28 ? <ProductsDropdown /> : <DevelopersDropdown />}
+          {comp}
         </div>
       </div>
       <div className="sm:hidden flex items-center justify-center space-x-5 pr-2">
