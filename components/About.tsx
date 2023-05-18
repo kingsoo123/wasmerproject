@@ -107,11 +107,11 @@ const About = () => {
               <Image
                 src={leftside}
                 alt="leftside"
-                className="w-[280px] h-[230px] rotateCircle hidden md:flex flex-row"
+                className="sm:w-[280px] w-[100px] h-[230px] rotateCircle"
               />
               <div className="w-full flex-col">
-                <span className="flex justify-center items-center pb-4">
-                  <div className="w-[35%] sm:flex justify-center items-center gap-4">
+                <span className="flex justify-center items-center flex-wrap mt-[40px]">
+                  <div className="sm:w-[35%] w-[50%] flex justify-center items-center">
                     <Image src={docker} alt="leftside" />
                     <Image src={workflow} alt="leftside" />
                     <Image src={cobols} alt="leftside" />
@@ -120,8 +120,8 @@ const About = () => {
                     <Image src={golang} alt="leftside" />
                   </div>
                 </span>
-                <span className="flex justify-center items-center m-auto">
-                  <p className="text-[22px] text-white">
+                <span className="flex justify-center items-center m-auto p-2">
+                  <p className="sm:text-2xl text-[14px] text-white">
                     Supports almost every programming language
                   </p>
                 </span>
@@ -130,7 +130,7 @@ const About = () => {
               <Image
                 src={rightside}
                 alt="leftside"
-                className="w-[280px] h-[230px] circleFilt hidden md:flex flex-row"
+                className="sm:w-[280px] w-[100px] h-[230px] circleFilt"
               />
             </div>
             <span className="w-[90%] sm:h-[118px] bg-[#0F0518] rounded-lg flex  justify-between items-center sm:m-auto sm:-mt-[40px] p-5">
