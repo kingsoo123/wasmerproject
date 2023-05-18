@@ -1,5 +1,8 @@
+"use client";
+
 import React from "react";
 import Button from "./Button";
+import { Carousel } from "@trendyol-js/react-carousel";
 import {
   Greenbar,
   WhiteArrow,
@@ -189,13 +192,17 @@ const About = () => {
           </div>
         </div>
         <div className=" w-full flex justify-center items-center">
-          <div className="w-[70%] h-[400px] sectbgtwo">
-            <div className="w-full flex justify-center items-center">
+          <div className="w-[80%] sectbgtwo">
+            <div className="w-full md:flex flex-row justify-around items-center gap-4">
               {/* insert cards */}
-              <PackageCard />
+              <Carousel show={2.5} slide={3} swiping={true} infinite={true}>
+                <PackageCard />
+                <PackageCard />
+                <PackageCard />
+              </Carousel>
             </div>
             <div className="w-full flex justify-center items-center mt-8">
-              <span className="w-[90%] sm:h-[118px] bg-[#0F0518] rounded-lg md:flex flex-row justify-between items-center p-5">
+              <span className="w-[80%] sm:h-[118px] bg-[#0F0518] rounded-lg md:flex flex-row justify-between items-center p-5">
                 <p className="text-[22px] text-white">
                   All languages, fully containerize {"&"} collaborative
                 </p>
