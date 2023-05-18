@@ -4,14 +4,14 @@ import { wordpress, django } from "../assets";
 
 const Cardtwo = () => {
   return (
-    <div className="md:flex flex-row w-full justify-between items-center space-y-4 mt-4">
+    <div className="md:flex flex-row w-full justify-between items-center space-y-5 mt-4">
       <div className="sm:w-[48%] w-[100%] h-[90%] bg-white rounded-lg border-[1px]">
-        <div className="w-full flex justify-end">
-          <div className="w-[90%]">
-            <p className="sm:text-[32px] leading-snug break-normal font-gilroy mt-4">
+        <div className="w-full flex justify-end p-1">
+          <div className="w-[90%] p-5">
+            <p className="sm:text-[22px] leading-snug break-normal font-gilroy mt-4">
               Welcome to the world&apos;s most popular website builder
             </p>
-            <p>
+            <p className="text-[12px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Perspiciatis exercitationem voluptates
             </p>
