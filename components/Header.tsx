@@ -15,7 +15,7 @@ const Header = () => {
   const [comp, setComp] = useState<any>("");
 
   useEffect(() => {
-    position === 28
+    position === 20
       ? setComp(<ProductsDropdown />)
       : setComp(<DevelopersDropdown />);
   }, [position]);
@@ -36,13 +36,13 @@ const Header = () => {
         <ul className="w-3/4 flex justify-around items-center font-gilroy cursor-pointer">
           <li
             className="hover:underline underline-offset-4"
-            onMouseEnter={() => (setShowdropdown(true), setpPosition(28))}
+            onMouseEnter={() => (setShowdropdown(true), setpPosition(20))}
           >
             Products
           </li>
           <li
             className="hover:underline underline-offset-4"
-            onMouseEnter={() => (setShowdropdown(true), setpPosition(40))}
+            onMouseEnter={() => (setShowdropdown(true), setpPosition(90))}
           >
             Developers
           </li>
@@ -59,7 +59,7 @@ const Header = () => {
         <div
           className={`${
             !showdropdown && "hidden"
-          }   w-[400px] border rounded-lg absolute top-14 -left-${position} z-30 border border-[1px] bg-white`}
+          }   w-[400px] border rounded-lg absolute top-14 left-[-50px] z-30 border border-[1px] bg-white`}
           onMouseEnter={() => setShowdropdown(true)}
           onMouseLeave={() => setShowdropdown(false)}
         >
