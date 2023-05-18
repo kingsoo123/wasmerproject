@@ -41,7 +41,7 @@ body {
 }
 
 .divider {
-  background: linear-gradient(180deg, #fcfcfe 30%, #cdd5e9 50%);
+  background: linear-gradient(180deg, #fcfcfe 10%, #cdd5e9 30%);
 }
 
 *:focus {
