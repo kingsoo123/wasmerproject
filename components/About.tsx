@@ -259,13 +259,13 @@ const About = () => {
             </div>
             <div className="flex w-[full] justify-center items-center mt-4">
               <div className="flex sm:w-[80%] w-[100%] justify-between items-center">
-                <p className="text-[#0E061A] sm:text-2xl text-[16px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
+                <p className="text-[#0E061A] sm:text-1xl text-[16px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
                   No servers to maintain
                 </p>
-                <p className="text-[#0E061A] sm:text-2xl text-[16px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
+                <p className="text-[#0E061A] sm:text-1xl text-[16px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
                   Instant cold starts
                 </p>
-                <p className="text-[#0E061A] sm:text-2xl text-[16px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
+                <p className="text-[#0E061A] sm:text-1xl text-[16px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
                   Infinite scalability
                 </p>
               </div>
