@@ -89,7 +89,7 @@ const About = () => {
           />
         </div>
         <div className="flex justify-center items-center">
-          <p className="sm:text-[48px] font-semibold leading-snug break-normal font-gilroy mt-4">
+          <p className="sm:text-[48px] text-[34px] font-semibold leading-snug break-normal font-gilroy mt-4">
             Run the world
           </p>
         </div>
@@ -176,7 +176,7 @@ const About = () => {
           />
         </div>
         <div className="flex justify-center items-center">
-          <p className="sm:text-[48px] font-semibold leading-snug break-normal font-gilroy mt-4">
+          <p className="sm:text-[48px] text-[34px] font-semibold leading-snug break-normal font-gilroy mt-4">
             Better together
           </p>
         </div>
@@ -239,7 +239,7 @@ const About = () => {
           />
         </div>
         <div className="flex justify-center items-center">
-          <p className="sm:text-[48px] font-semibold leading-snug break-normal font-gilroy mt-4">
+          <p className="sm:text-[48px] text-[34px] font-semibold leading-snug break-normal font-gilroy mt-4">
             Above the clouds
           </p>
         </div>
