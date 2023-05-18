@@ -148,7 +148,7 @@ const About = () => {
         {/* this programming */}
         <div className="w-full flex-col justify-center items-center mt-[60px]">
           <div className="w-full flex justify-center items-center">
-            <div className="w-[30%] m-auto">
+            <div className="sm:w-[30%] w-[70%] m-auto">
               <p className="text-[#0E061A] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
                 “This programming tool makes it easier for apps to work
                 anywhere”
@@ -211,7 +211,7 @@ const About = () => {
         {/* this programming */}
         <div className="w-full flex-col justify-center items-center mt-[90px]">
           <div className="w-full flex justify-center items-center">
-            <div className="w-[30%] m-auto">
+            <div className="sm:w-[30%] w-[70%] m-auto">
               <p className="text-[#0E061A] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50 text-center">
                 “This programming tool makes it easier for apps to work
                 anywhere”
@@ -287,7 +287,7 @@ const About = () => {
         {/* this programming */}
         <div className="w-full flex-col justify-center items-center mt-[60px]">
           <div className="w-full flex justify-center items-center">
-            <div className="w-[30%] m-auto">
+            <div className="sm:w-[30%] w-[70%] m-auto">
               <p className="text-[#0E061A] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
                 “This programming tool makes it easier for apps to work
                 anywhere”
