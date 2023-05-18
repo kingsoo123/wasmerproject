@@ -130,5 +130,9 @@ body {
 
 .boxes {
   box-shadow: 30px 30px 50px #b696d9, 30px -30px 50px #e8c7a3,
-    -30px 30px 90px #a3c6ac, 30px 30px 50px #d1a299, 30px 30px 50px #b696d9;
+    -30px 30px 40px #a3c6ac, 30px 30px 50px #d1a299, 30px 30px 50px #b696d9;
+}
+
+.purple {
+  box-shadow: 3px 13px 20px #b696d9, 20px 20px 40px #b696d9;
 }

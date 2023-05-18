@@ -277,8 +277,8 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full flex justify-center items-center mt-8 rectBox">
-              <span className="w-[90%] sm:h-[118px] bg-[#0F0518] rounded-lg md:flex flex-row justify-between items-center p-5">
+            <div className="w-full flex justify-center items-center mt-8 purple">
+              <span className="w-[100%] sm:h-[118px] bg-[#0F0518] rounded-lg md:flex flex-row justify-between items-center p-5">
                 <p className="text-2xl text-white">
                   Faster, cheaper {"&"} indefinitely scalable
                 </p>
