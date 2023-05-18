@@ -18,7 +18,7 @@ const Footer = () => {
             <Image src={youtube} alt="Picture of the logo" />
           </div>
         </div>
-        <div className="md:w-[60%] w-[100%] h-full md:flex flex-row justify-around p-4">
+        <div className="md:w-[60%] w-[100%] h-full md:flex flex-row justify-around p-5">
           <div className="space-y-4">
             <p className="text-[#0F0518] text-[16px] leading-snug break-normal font-gilroy mt-4 text-black tracking-widest">
               Explore
