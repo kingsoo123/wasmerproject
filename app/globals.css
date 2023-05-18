@@ -104,17 +104,6 @@ body {
     0px 0.40371px 7.42857px rgba(35, 16, 68, 0.001);
 }
 
-.getstarted::before {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  width: 90%;
-  height: 35%;
-  background: linear-gradient(90deg, #e8c7a3 30%, #b696d9 100%);
-  filter: blur(80px);
-  opacity: var(0.2);
-}
-
 .boxes {
   box-shadow: 30px 30px 50px #b696d9, 30px -30px 50px #e8c7a3,
     -30px 30px 40px #a3c6ac, 30px 30px 50px #d1a299, 30px 30px 50px #b696d9;
@@ -126,4 +115,8 @@ body {
 
 .orange {
   box-shadow: 3px 13px 20px #e79187, 20px 20px 40px #e8c7a3;
+}
+
+.green {
+  box-shadow: 3px 13px 20px #6db574, 20px 20px 40px #6db574;
 }

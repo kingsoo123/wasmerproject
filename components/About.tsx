@@ -136,7 +136,7 @@ const About = () => {
                 className="sm:w-[280px] h-[230px] circleFilt opacity-25"
               />
             </div>
-            <span className="w-[90%] sm:h-[118px] bg-[#0F0518] rounded-lg flex  justify-between items-center sm:m-auto sm:-mt-[40px] p-5">
+            <span className="w-[90%] sm:h-[118px] bg-[#0F0518] rounded-lg flex  justify-between items-center sm:m-auto sm:-mt-[40px] p-5 green">
               <p className="text-[22px] text-white">
                 Truly universal, runs everywhere {"&"} fast as native
               </p>
