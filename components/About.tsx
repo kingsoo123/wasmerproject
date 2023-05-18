@@ -110,7 +110,7 @@ const About = () => {
               <Image
                 src={leftside}
                 alt="leftside"
-                className="sm:w-[280px] w-[100px] h-[230px] rotateCircle"
+                className="sm:w-[280px] w-[100px] h-[230px] rotateCircle opacity-25"
               />
               <div className="w-full flex-col">
                 <span className="flex justify-center items-center  mt-[40px]">
@@ -133,7 +133,7 @@ const About = () => {
               <Image
                 src={rightside}
                 alt="leftside"
-                className="sm:w-[280px] w-[100px] h-[230px] circleFilt"
+                className="sm:w-[280px] h-[230px] circleFilt opacity-25"
               />
             </div>
             <span className="w-[90%] sm:h-[118px] bg-[#0F0518] rounded-lg flex  justify-between items-center sm:m-auto sm:-mt-[40px] p-5">
@@ -195,7 +195,7 @@ const About = () => {
           <div className="w-[80%] sectbgtwo">
             <div className="w-full md:flex flex-row justify-around items-center gap-4">
               {/* insert cards */}
-              <Carousel show={2.5} slide={3} swiping={true} infinite={true}>
+              <Carousel show={2.8} slide={3} swiping={true} infinite={true}>
                 <PackageCard />
                 <PackageCard />
                 <PackageCard />

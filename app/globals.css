@@ -44,24 +44,6 @@ body {
   background: linear-gradient(180deg, #fcfcfe 30%, #cdd5e9 50%);
 }
 
-.herobg {
-  background-image: linear-gradient(
-    to right top,
-    #e5e9f3,
-    #e0e5f1,
-    #dce1f0,
-    #d7deee,
-    #d3daec,
-    #d5dbed,
-    #d8dded,
-    #dadeee,
-    #e3e5f2,
-    #ecedf6,
-    #f4f4fa,
-    #fcfcfe
-  );
-}
-
 *:focus {
   outline: none;
   caret-color: #0f0518;
@@ -84,7 +66,6 @@ body {
 .sectbgtwo {
   background-image: url("../assets/pinkgradient.svg");
   border-radius: 50%;
-  border: 0px solid rgba(255, 255, 255, 0.5);
 }
 
 .cardshadow {
