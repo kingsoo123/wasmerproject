@@ -67,7 +67,7 @@ const Header = () => {
         <div
           className={`${
             !showdropdown && "hidden"
-          }   w-[400px] border rounded-lg absolute top-14 ${position} z-30 border border-[1px] bg-white transition-all duration-500 transform`}
+          }   w-[400px] border rounded-lg absolute top-14 ${position} z-30 border border-[1px] bg-white transition-all duration-200 transform`}
           onMouseEnter={() => setShowdropdown(true)}
           onMouseLeave={() => setShowdropdown(false)}
         >
