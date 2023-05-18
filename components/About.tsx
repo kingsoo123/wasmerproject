@@ -277,7 +277,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full flex justify-center items-center mt-8">
+            <div className="w-full flex justify-center items-center mt-8 rectBox">
               <span className="w-[90%] sm:h-[118px] bg-[#0F0518] rounded-lg md:flex flex-row justify-between items-center p-5">
                 <p className="text-2xl text-white">
                   Faster, cheaper {"&"} indefinitely scalable
@@ -307,7 +307,7 @@ const About = () => {
           </div>
         </div>
         <div className="w-full flex justify-center items-center mt-[120px]">
-          <div className="w-[90%] bg-[#0F0518] rounded-lg p-5">
+          <div className="w-[90%] bg-[#0F0518] rounded-lg p-5 boxes">
             <p className="sm:text-[48px] font-semibold leading-snug break-normal font-gilroy mt-4 text-white">
               Get Started
             </p>

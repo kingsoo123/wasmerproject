@@ -64,8 +64,10 @@ body {
 }
 
 .sectbgtwo {
-  background-image: url("../assets/pinkgradient.svg");
+  /* background-image: url("../assets/pinkgradient.svg"); */
+  background-image: linear-gradient(to right, #ffffff, #8f61be);
   border-radius: 50%;
+  box-shadow: rgba(144, 56, 202, 0.56) 0px 22px 70px 4px;
 }
 
 .cardshadow {
@@ -73,4 +75,19 @@ body {
     0px 2.6874px 15.7931px rgba(35, 16, 68, 0.0226),
     0px 1.11621px 10.0286px rgba(35, 16, 68, 0.015),
     0px 0.40371px 7.42857px rgba(35, 16, 68, 0.001);
+}
+
+.getstarted {
+  box-shadow: rgba(144, 56, 202, 0.56) 0px 22px 70px 4px;
+}
+
+.boxes::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 90%;
+  height: 35%;
+  background: linear-gradient(40deg, #e8c7a3 30%, #b696d9 100%);
+  filter: blur(80px);
+  opacity: var(0.7);
 }
