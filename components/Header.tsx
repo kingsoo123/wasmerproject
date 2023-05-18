@@ -11,11 +11,11 @@ import { JsxElement } from "typescript";
 
 const Header = () => {
   const [showdropdown, setShowdropdown] = useState<boolean>(false);
-  const [position, setpPosition] = useState<number>(0);
+  const [position, setpPosition] = useState<string>("left-[-50px]");
   const [comp, setComp] = useState<any>("");
 
   useEffect(() => {
-    position === 20
+    position === "left-[-50px]"
       ? setComp(<ProductsDropdown />)
       : setComp(<DevelopersDropdown />);
   }, [position]);
@@ -36,13 +36,17 @@ const Header = () => {
         <ul className="w-3/4 flex justify-around items-center font-gilroy cursor-pointer">
           <li
             className="hover:underline underline-offset-4"
-            onMouseEnter={() => (setShowdropdown(true), setpPosition(20))}
+            onMouseEnter={() => (
+              setShowdropdown(true), setpPosition("left-[-50px]")
+            )}
           >
             Products
           </li>
           <li
             className="hover:underline underline-offset-4"
-            onMouseEnter={() => (setShowdropdown(true), setpPosition(90))}
+            onMouseEnter={() => (
+              setShowdropdown(true), setpPosition("left-[-90px]")
+            )}
           >
             Developers
           </li>
@@ -59,7 +63,7 @@ const Header = () => {
         <div
           className={`${
             !showdropdown && "hidden"
-          }   w-[400px] border rounded-lg absolute top-14 left-[${"-50px"}] z-30 border border-[1px] bg-white`}
+          }   w-[400px] border rounded-lg absolute top-14 ${position} z-30 border border-[1px] bg-white`}
           onMouseEnter={() => setShowdropdown(true)}
           onMouseLeave={() => setShowdropdown(false)}
         >
