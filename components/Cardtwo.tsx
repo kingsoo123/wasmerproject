@@ -9,7 +9,7 @@ const Cardtwo = () => {
         <div className="w-full flex justify-end">
           <div className="w-[90%]">
             <p className="sm:text-[32px] leading-snug break-normal font-gilroy mt-4">
-              Welcome to the world's most popular website builder
+              Welcome to the world&apos;s most popular website builder
             </p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -30,7 +30,7 @@ const Cardtwo = () => {
         <div className="w-full flex bg-black pb-2">
           <div className="w-[100%]">
             <p className="sm:text-[22px] leading-snug break-normal font-gilroy mt-4 text-white">
-              Welcome to the world's most popular website builder
+              Welcome to the world&apos;s most popular website builder
             </p>
 
             <button className="p-2 bg-[#3373BE] text-white">Get started</button>
