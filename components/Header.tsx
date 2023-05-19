@@ -8,6 +8,7 @@ import {
   ProductsDropdown,
 } from "../components/ProductsDropdown";
 import { JsxElement } from "typescript";
+import Sidemenu from "./Sidemenu";
 
 const Header = () => {
   const [showdropdown, setShowdropdown] = useState<boolean>(false);
@@ -84,6 +85,8 @@ const Header = () => {
         />
         <Image src={burger} alt="burger" />
       </div>
+
+      <Sidemenu />
     </div>
   );
 };
