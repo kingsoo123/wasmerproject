@@ -3,9 +3,9 @@ import Image from "next/image";
 import {
   Search,
   cli,
-  clones,
+  //   clones,
   spiral,
-  plug,
+  //   plug,
   meta,
   apple,
   google,
