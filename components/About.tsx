@@ -192,14 +192,10 @@ const About = () => {
           </div>
         </div>
         <div className=" w-full flex justify-center items-center mt-[100px]">
-          <div className="w-[80%] sectbgthree">
-            <div className="w-full md:flex flex-row justify-between items-center space-x-4">
+          <div className="w-[60%] sectbgthree">
+            <div className="w-full md:flex flex-row justify-center items-center space-x-4">
               {/* insert cards */}
-              <Carousel show={2.5} slide={3} swiping={true} infinite={true}>
-                <PackageCard />
-                <PackageCard />
-                <PackageCard />
-              </Carousel>
+              <PackageCard />
             </div>
             <div className="w-full flex justify-center items-center mt-8 orange">
               <span className="w-[100%] sm:h-[118px] bg-[#0F0518] rounded-lg md:flex flex-row justify-between items-center p-5">
