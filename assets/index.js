@@ -42,3 +42,5 @@ export { default as browncircle } from "./browncircle.svg";
 export { default as purplecircle } from "./purplecircle.svg";
 export { default as book } from "./book.svg";
 export { default as burger } from "./burger.svg";
+export { default as plane } from "./plane.svg";
+export { default as instant } from "./instant.svg";

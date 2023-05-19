@@ -3,7 +3,7 @@ import Image from "next/image";
 import { packagelogo, slantline, likes } from "../assets";
 const PackageCard = () => {
   return (
-    <div className="sm:w-[80%] w-[100%] max-w-[500px] h-[230px] bg-[#FDFDFE] rounded-lg cardshadow mt-[30px] z-10">
+    <div className="sm:w-[80%] w-[100%] max-w-[500px] bg-[#FDFDFE] rounded-lg cardshadow mt-[30px] z-10">
       <div className="w-[100%] flex justify-center items-center">
         <div className="w-[90%] flex justify-start items-center gap-5 p-4">
           <Image src={packagelogo} alt="packagelogo" />

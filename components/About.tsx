@@ -19,6 +19,8 @@ import {
   golang,
   Arrow,
   vercel,
+  plane,
+  instant,
 } from "../assets";
 import Image from "next/image";
 import PackageCard from "../components/PackageCard";
@@ -105,7 +107,7 @@ const About = () => {
           </div>
         </div>
         <div className=" w-full flex justify-center items-center">
-          <div className="w-[70%] sectbg">
+          <div className="sm:w-[70%] w-full p-2 relative">
             <div className="w-full h-full flex justify-between items-center">
               <Image
                 src={leftside}
@@ -133,10 +135,10 @@ const About = () => {
               <Image
                 src={rightside}
                 alt="leftside"
-                className="sm:w-[280px] h-[230px] circleFilt opacity-25"
+                className="sm:w-[280px] w-[100px] h-[230px] circleFilt opacity-25"
               />
             </div>
-            <span className="w-[90%] sm:h-[118px] bg-[#0F0518] rounded-lg flex  justify-between items-center sm:m-auto sm:-mt-[40px] p-5 green">
+            <span className="sm:w-[90%] sm:h-[118px] bg-[#0F0518] rounded-lg flex  justify-between items-center sm:-mt-[40px] p-5 green">
               <p className="text-[22px] text-white">
                 Truly universal, runs everywhere {"&"} fast as native
               </p>
@@ -146,6 +148,7 @@ const About = () => {
                 </div>
               </div>
             </span>
+            <div className="absolute top-0 right-0 bottom-0 left-0 sectbg -z-10"></div>
           </div>
         </div>
         {/* this programming */}
@@ -192,13 +195,15 @@ const About = () => {
           </div>
         </div>
         <div className=" w-full flex justify-center items-center mt-[100px]">
-          <div className="w-[60%] sectbgthree">
+          <div className="sm:w-[90%] w-full p-2 relative">
             <div className="w-full md:flex flex-row justify-center items-center space-x-4">
               {/* insert cards */}
-              <PackageCard />
+              {[1, 2, 3].map((item, id) => (
+                <PackageCard key={id} />
+              ))}
             </div>
-            <div className="w-full flex justify-center items-center mt-8 orange">
-              <span className="w-[100%] sm:h-[118px] bg-[#0F0518] rounded-lg md:flex flex-row justify-between items-center p-5">
+            <div className="w-full flex justify-center items-center mt-8 ">
+              <span className="sm:w-[50%] w-full sm:h-[118px] bg-[#0F0518] rounded-lg md:flex flex-row justify-between items-center p-5 orange">
                 <p className="text-[22px] text-white">
                   All languages, fully containerize {"&"} collaborative
                 </p>
@@ -208,6 +213,7 @@ const About = () => {
                   </div>
                 </div>
               </span>
+              <div className="absolute sm:top-[40%] top-40 sm:right-[25%] right-0 bottom-0 sm:left-[25%] left-0 secbgtwo -z-10"></div>
             </div>
           </div>
         </div>
@@ -254,23 +260,27 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className=" w-full flex justify-center items-center mt-[100px]">
-          <div className="w-[70%] sectbgtwo">
+        <div className="w-full flex justify-center items-center mt-[100px]">
+          <div className="sm:w-[70%] w-full relative p-2">
             <div className="w-full flex justify-center items-center">
               {/* insert cards */}
               <Cardtwo />
             </div>
             <div className="flex w-[full] justify-center items-center mt-4">
-              <div className="flex sm:w-[80%] w-[100%] justify-between items-center">
-                <p className="text-[#0E061A] sm:text-1xl text-[16px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
-                  No servers to maintain
-                </p>
-                <p className="text-[#0E061A] sm:text-1xl text-[16px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
-                  Instant cold starts
-                </p>
-                <p className="text-[#0E061A] sm:text-1xl text-[16px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
-                  Infinite scalability
-                </p>
+              <div className="sm:flex flex-row sm:w-[80%] w-[100%] justify-center items-center space-x-5">
+                <span className="flex justify-center items-center space-x-2">
+                  <Image src={plane} alt="plane" />
+                  <p className="text-white sm:text-1xl text-[16px] text-center leading-snug break-normal font-gilroy tracking-widest">
+                    No servers to maintain
+                  </p>
+                </span>
+
+                <span className="flex justify-center items-center space-x-2">
+                  <Image src={instant} alt="plane" />
+                  <p className="text-white sm:text-1xl text-[16px] text-center leading-snug break-normal font-gilroy tracking-widest">
+                    No servers to maintain
+                  </p>
+                </span>
               </div>
             </div>
             <div className="w-full flex justify-center items-center mt-8 purple">
@@ -285,6 +295,7 @@ const About = () => {
                 </div>
               </span>
             </div>
+            <div className="absolute sm:top-[20%] top-0 sm:right-[20%] right-0 bottom-0 sm:left-[20%] left-0 sectbgthree -z-10"></div>
           </div>
         </div>
         {/* this programming */}
