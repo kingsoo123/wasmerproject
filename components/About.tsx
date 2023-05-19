@@ -97,8 +97,8 @@ const About = () => {
           </p>
         </div>
         <div className="flex justify-center items-center">
-          <div className="w-[60%]">
-            <p className="text-[#0E061A] text-[22px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
+          <div className="sm:w-[60%] w-[90%]">
+            <p className="text-[#0E061A] sm:text-[22px] text-[16px] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
               Using a binary for each platform and chip is the past. Rise above
               with lightweight containerized apps that simply run everywhere.
             </p>
