@@ -1,19 +1,19 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { Logo, Search, burger } from "../assets";
+import { Logo, Search, burger, close } from "../assets";
 import Button from "./Button";
 import {
   DevelopersDropdown,
   ProductsDropdown,
 } from "../components/ProductsDropdown";
-import { JsxElement } from "typescript";
 import Sidemenu from "./Sidemenu";
 
 const Header = () => {
   const [showdropdown, setShowdropdown] = useState<boolean>(false);
   const [position, setpPosition] = useState<string>("left-[-50px]");
   const [comp, setComp] = useState<any>("");
+  const [showMenu, setShowmenu] = useState<boolean>(false);
 
   useEffect(() => {
     position === "left-[-50px]"
@@ -83,10 +83,15 @@ const Header = () => {
           imgsrc={""}
           imgsrctwo={""}
         />
-        <Image src={burger} alt="burger" />
+        <span onClick={() => setShowmenu(!showMenu)}>
+          {showMenu ? (
+            <Image src={close} alt="close" />
+          ) : (
+            <Image src={burger} alt="burger" />
+          )}
+        </span>
       </div>
-
-      <Sidemenu />
+      {showMenu && <Sidemenu />}
     </div>
   );
 };

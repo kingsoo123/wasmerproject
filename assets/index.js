@@ -44,3 +44,4 @@ export { default as book } from "./book.svg";
 export { default as burger } from "./burger.svg";
 export { default as plane } from "./plane.svg";
 export { default as instant } from "./instant.svg";
+export { default as close } from "./close.svg";
