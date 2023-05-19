@@ -107,7 +107,7 @@ const About = () => {
           </div>
         </div>
         <div className=" w-full flex justify-center items-center">
-          <div className="sm:w-[70%] w-full p-2 relative">
+          <div className="sm:w-[70%] w-full relative">
             <div className="w-full h-full flex justify-between items-center">
               <Image
                 src={leftside}
@@ -138,7 +138,7 @@ const About = () => {
                 className="sm:w-[280px] w-[100px] h-[230px] circleFilt opacity-25"
               />
             </div>
-            <span className="sm:w-[90%] sm:h-[118px] bg-[#0F0518] rounded-lg flex  justify-between items-center sm:-mt-[40px] p-5 green">
+            <span className="sm:w-[90%] sm:h-[118px] bg-[#0F0518] rounded-lg flex  justify-between items-center sm:-mt-[40px] p-5 green sm:m-auto">
               <p className="text-[22px] text-white">
                 Truly universal, runs everywhere {"&"} fast as native
               </p>
@@ -167,7 +167,7 @@ const About = () => {
           </div>
         </div>
         <div className="w-full flex justify-center items-center mt-[40px]">
-          <div className="w-[2px] divider  h-[144px]" />
+          <div className="w-[2px] divider h-[144px]" />
         </div>
       </div>
       {/* publish our work */}
@@ -195,7 +195,7 @@ const About = () => {
           </div>
         </div>
         <div className=" w-full flex justify-center items-center mt-[100px]">
-          <div className="sm:w-[90%] w-full p-2 relative">
+          <div className="sm:w-[90%] w-full relative">
             <div className="w-full md:flex flex-row justify-center items-center space-x-4">
               {/* insert cards */}
               {[1, 2, 3].map((item, id) => (
@@ -233,7 +233,7 @@ const About = () => {
           </div>
         </div>
         <div className="w-full flex justify-center items-center mt-[40px]">
-          <div className="w-[2px] divider  h-[144px]" />
+          <div className="w-[2px] divider h-[144px]" />
         </div>
       </div>
       {/* deploy our work */}
@@ -261,7 +261,7 @@ const About = () => {
           </div>
         </div>
         <div className="w-full flex justify-center items-center mt-[100px]">
-          <div className="sm:w-[70%] w-full relative p-2">
+          <div className="sm:w-[70%] w-full relative">
             <div className="w-full flex justify-center items-center">
               {/* insert cards */}
               <Cardtwo />
