@@ -13,7 +13,7 @@ const Header = () => {
   const [showdropdown, setShowdropdown] = useState<boolean>(false);
   const [position, setpPosition] = useState<string>("left-[-50px]");
   const [comp, setComp] = useState<any>("");
-  const [showMenu, setShowmenu] = useState<boolean>(false);
+  const [showMenu, setShowmenu] = useState<boolean>(!false);
 
   useEffect(() => {
     position === "left-[-50px]"
