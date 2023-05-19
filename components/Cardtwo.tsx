@@ -5,7 +5,7 @@ import { wordpress, django } from "../assets";
 const Cardtwo = () => {
   return (
     <div className="md:flex flex-row w-full justify-between items-center space-y-5 mt-4 relative">
-      <div className="sm:w-[48%] w-[80%] bg-white rounded-lg border-[1px] sm:top-0 -top-[20%] sm:left-0 left-[50px]  sm:relative absolute">
+      <div className="sm:w-[48%] w-[100%] bg-white rounded-lg border-[1px] sm:top-0 -top-[30%] sm:left-0 left-[50px]  sm:relative absolute">
         <div className="w-full flex justify-end p-1">
           <div className="w-[90%] p-5">
             <p className="sm:text-[22px] leading-snug break-normal font-gilroy mt-4">
