@@ -114,7 +114,7 @@ const About = () => {
               />
               <div className="w-full flex-col">
                 <span className="flex justify-center items-center  mt-[40px]">
-                  <div className="sm:w-[35%] w-[200px] flex justify-center items-center space-x-2 sm:flex-nowrap flex-wrap-reverse">
+                  <div className="sm:w-[35%] w-[240px] flex justify-center items-center space-x-2 sm:flex-nowrap flex-wrap-reverse sm:ml-0 -ml-10">
                     <Image src={docker} alt="leftside" />
                     <Image src={workflow} alt="leftside" />
                     <Image src={cobols} alt="leftside" />
