@@ -113,8 +113,8 @@ const About = () => {
                 className="sm:w-[280px] w-[100px] h-[230px] rotateCircle opacity-25"
               />
               <div className="w-full flex-col">
-                <span className="flex justify-center items-center mt-[40px] sm:ml-0 -ml-20">
-                  <div className="sm:w-[35%] w-[240px] flex justify-center items-center space-x-2 sm:flex-nowrap flex-wrap-reverse ">
+                <span className="flex justify-center items-center  mt-[40px]">
+                  <div className="sm:w-[35%] w-[30%] flex justify-center items-center space-x-2">
                     <Image src={docker} alt="leftside" />
                     <Image src={workflow} alt="leftside" />
                     <Image src={cobols} alt="leftside" />
@@ -123,7 +123,7 @@ const About = () => {
                     <Image src={golang} alt="leftside" />
                   </div>
                 </span>
-                <span className="flex justify-center items-center m-auto p-2 sm:ml-0 -ml-10">
+                <span className="flex justify-center items-center m-auto p-2">
                   <p className="sm:text-2xl text-[14px] text-white">
                     Supports almost every programming language
                   </p>
