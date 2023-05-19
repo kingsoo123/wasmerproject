@@ -83,7 +83,7 @@ const Header = () => {
           imgsrc={""}
           imgsrctwo={""}
         />
-        <span onClick={() => setShowmenu(!showMenu)}>
+        <span onClick={() => setShowmenu(!showMenu)} className="p-3">
           {showMenu ? (
             <Image src={close} alt="close" />
           ) : (
