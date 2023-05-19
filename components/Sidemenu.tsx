@@ -3,13 +3,32 @@ import Image from "next/image";
 import {
   Search,
   cli,
-  //   clones,
+  clones,
   spiral,
-  //   plug,
+  plug,
   meta,
   apple,
   google,
 } from "../assets";
+
+const darkCards = [
+  {
+    icon: spiral,
+    title: "Fast",
+    content:
+      "Run apps at close to native speed and outperform the competition.",
+  },
+  {
+    icon: clones,
+    title: "Safe",
+    content: "Everything is containerized so nothing is exposed.",
+  },
+  {
+    icon: plug,
+    title: "Pluggable",
+    content: "Plug your own backend, compiler, or runner",
+  },
+];
 
 const Sidemenu = () => {
   return (
@@ -49,7 +68,7 @@ const Sidemenu = () => {
           </span>
         </div>
         <div>
-          {[1, 2, 3].map((item, id) => {
+          {darkCards?.map((item, id) => {
             return (
               <div key={id}>
                 <div className="h-[5px]" />
@@ -59,16 +78,15 @@ const Sidemenu = () => {
                   } -z-10 green`}
                 >
                   <Image
-                    src={spiral}
+                    src={item.icon}
                     alt="Picture of the logo"
                     className="m-auto"
                   />
                   <p className="text-[24px] text-[#FAFBFD] leading-snug break-normal font-gilroy tracking-widest text-center">
-                    Fast
+                    {item.title}
                   </p>
                   <p className="text-[16px] text-[#FAFBFD] leading-snug break-normal font-gilroy tracking-widest text-center text-opacity-50">
-                    Run apps at close to native speed and outperform the
-                    competition.
+                    {item.content}
                   </p>
                 </div>
               </div>

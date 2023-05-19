@@ -47,6 +47,7 @@ export { default as instant } from "./instant.svg";
 export { default as close } from "./close.svg";
 export { default as cli } from "./cli.svg";
 export { default as clones } from "./clone.svg";
+export { default as plug } from "./plug.svg";
 export { default as spiral } from "./spiral.svg";
 export { default as google } from "./google.svg";
 export { default as apple } from "./apple.svg";
