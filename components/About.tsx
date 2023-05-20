@@ -275,8 +275,6 @@ const About = () => {
                 src={groupcardsmobile}
                 alt="groupcardsmobile"
                 className="md:hidden sm:hidden  md:flex flex-row"
-                layout="responsive"
-                loading="lazy"
               />
             </div>
             <div className="flex w-[full] justify-center items-center mt-4">

@@ -26,26 +26,28 @@ const Hero = () => {
           </h1>
         </div>
       </div>
-      <div className="sm:w-full mt-6 relative h-[400px] pb-4">
-        <div className="hidden w-full md:flex flex-row justify-between absolute">
-          <Image
-            src={SemicircleOne}
-            alt="SemicircleOne"
-            className="circleFilt"
-          />
-          <Image
-            src={SemicircleTwo}
-            alt="SemicircleOne"
-            className="right-0 opacity-5"
-          />
+      <div className="sm:w-full mt-6 flex sm:justify-between justify-center items-center h-[400px] relative">
+        <div className="w-full flex justify-center items-center absolute z-10">
+          <Image src={Grad} alt="Grad" className="absolute -z-20" />
+          <Image src={Codebox} alt="Codebox" />
         </div>
-        <div className="hidden w-full h-[400px] absolute top-[50px] md:flex flex-row justify-between items-center">
-          <div className="w-[50%] h-full -space-y-10">
+        <div className="hidden md:flex flex-row sm:w-[33%] h-full relative">
+          <div className="absolute">
+            <Image
+              src={SemicircleOne}
+              alt="SemicircleOne"
+              className="circleFilt"
+            />
+          </div>
+          <div className="w-full h-full -space-y-10 mt-5">
             <Image src={Innersix} alt="Innersix" />
             <Image src={Innerfive} alt="Innersix" />
             <Image src={Innerfour} alt="Innersix" />
           </div>
-          <div className="w-[50%] h-full space-y-0 -mt-8 ml-[120px]">
+        </div>
+        <div className="sm:w-[33%] w-[100%] h-full "></div>
+        <div className="hidden md:flex flex-row sm:w-[33%] h-full">
+          <div className="w-full h-full space-y-[0px] mt-5">
             <Image src={Innerone} alt="Innersix" className="w-full h-[120px]" />
             <Image
               src={Innertwo}
@@ -59,10 +61,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="w-full flex justify-center items-center absolute">
-          <Image src={Grad} alt="Grad" className="absolute -z-20" />
-          <Image src={Codebox} alt="Codebox" />
-        </div>
+        {/* heroo sectionnn */}
       </div>
       <div className="w-full flex justify-center items-center sm:mt-4">
         <div className="sm:w-[40%] w-[90%]">
@@ -99,3 +98,42 @@ const Hero = () => {
 };
 
 export default Hero;
+
+{
+  /* <div className="hidden w-full md:flex flex-row justify-between absolute">
+<Image
+  src={SemicircleOne}
+  alt="SemicircleOne"
+  className="circleFilt"
+/>
+<Image
+  src={SemicircleTwo}
+  alt="SemicircleOne"
+  className="right-0 opacity-5"
+/>
+</div>
+<div className="hidden w-full h-[400px] absolute top-[50px] md:flex flex-row justify-between items-center">
+<div className="w-[50%] h-full -space-y-10">
+  <Image src={Innersix} alt="Innersix" />
+  <Image src={Innerfive} alt="Innersix" />
+  <Image src={Innerfour} alt="Innersix" />
+</div>
+<div className="w-[50%] h-full space-y-0 -mt-8 ml-[120px]">
+  <Image src={Innerone} alt="Innersix" className="w-full h-[120px]" />
+  <Image
+    src={Innertwo}
+    alt="Innersix"
+    className="w-full ml-auto h-[120px]"
+  />
+  <Image
+    src={Innerthree}
+    alt="Innersix"
+    className="w-full ml-auto h-[120px]"
+  />
+</div>
+</div>
+<div className="w-full flex justify-center items-center absolute">
+<Image src={Grad} alt="Grad" className="absolute -z-20" />
+<Image src={Codebox} alt="Codebox" />
+</div> */
+}
