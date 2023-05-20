@@ -113,7 +113,7 @@ const About = () => {
                 alt="leftside"
                 className="sm:w-[280px] w-[100px] h-[230px] rotateCircle opacity-25"
               />
-              <div className="w-full flex-col bg-red-500">
+              <div className="w-full flex-col">
                 <span className="flex justify-center items-center mt-[40px]">
                   <div className="sm:w-[35%] w-[200px] flex justify-center items-center space-x-2 sm:flex-nowrap flex-wrap-reverse">
                     <Image src={docker} alt="leftside" />
@@ -272,7 +272,7 @@ const About = () => {
               <Image
                 src={groupcardsmobile}
                 alt="groupcardsmobile"
-                className="md:hidden md:flex flex-row"
+                className="md:hidden sm:hidden  md:flex flex-row"
               />
             </div>
             <div className="flex w-[full] justify-center items-center mt-4">
