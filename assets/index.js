@@ -18,7 +18,6 @@ export { default as Greenbar } from "./greenbar.svg";
 export { default as WhiteArrow } from "./whitearrow.svg";
 export { default as Brownbar } from "./brownbar.svg";
 export { default as Roundbar } from "./round.svg";
-export { default as bgimg } from "./sectbg2.svg";
 export { default as leftside } from "./leftside.svg";
 export { default as rightside } from "./rightside.svg";
 export { default as docker } from "./docker.svg";
