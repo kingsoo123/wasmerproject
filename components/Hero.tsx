@@ -64,8 +64,8 @@ const Hero = () => {
           <Image src={Codebox} alt="Codebox" />
         </div>
       </div>
-      <div className="w-full flex justify-center items-center mt-4">
-        <div className="w-[40%]">
+      <div className="w-full flex justify-center items-center">
+        <div className="sm:w-[40%] w-[90%]">
           <p className="text-[#0E061A] text-center leading-snug break-normal font-gilroy tracking-widest text-opacity-50">
             Serve sandboxed WebAssembly apps anywhere through a single runtime
             and do in days what others do in months.
