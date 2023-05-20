@@ -137,3 +137,15 @@ body {
     font-size: 2em !important;
   }
 }
+
+@media only screen and (min-width: 952px) and (max-width: 1200px) {
+  .bigText {
+    font-size: 2em !important;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .bigText {
+    font-size: 1.5em !important;
+  }
+}
