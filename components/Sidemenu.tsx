@@ -129,7 +129,7 @@ const Sidemenu = () => {
                   <div key={id}>
                     <div className="h-[5px]" />
                     <div
-                      className={`mt-5 w-[360px] h-[238px] bg-[#0E061A]  flex-col items-center pt-8 p-5 rounded-lg ${
+                      className={`mt-5 w-[100%] h-[238px] bg-[#0E061A]  flex-col items-center pt-8 p-5 rounded-lg ${
                         id === 0 && "-mt-[50px]"
                       } -z-10 green`}
                     >
