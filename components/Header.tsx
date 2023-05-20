@@ -1,20 +1,23 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import Image from "next/image";
-import { Logo, Search, burger, close } from "../assets";
+import { Logo, Search, burger, close, bell } from "../assets";
 import Button from "./Button";
 import {
   DevelopersDropdown,
   ProductsDropdown,
 } from "../components/ProductsDropdown";
 import Sidemenu from "./Sidemenu";
+import { WasmerContext } from "../context/WasmerContext";
 
 const Header = () => {
+  const { signIn, setSignIn } = useContext(WasmerContext);
   const [showdropdown, setShowdropdown] = useState<boolean>(false);
   const [position, setpPosition] = useState<string>("left-[-50px]");
   const [comp, setComp] = useState<any>("");
   const [showMenu, setShowmenu] = useState<boolean>(false);
 
+  console.log(signIn, "::::::::::::");
   useEffect(() => {
     position === "left-[-50px]"
       ? setComp(<ProductsDropdown />)
@@ -58,13 +61,20 @@ const Header = () => {
           <li>Packages</li>
           <li>Blog</li>
         </ul>
-        <Button
-          title=" Sign up"
-          width={0}
-          fontsize={16}
-          imgsrc={""}
-          imgsrctwo={""}
-        />
+        {signIn ? (
+          <Image src={bell} alt="bell" />
+        ) : (
+          <span onClick={() => setSignIn(true)}>
+            <Button
+              title=" Sign up"
+              width={0}
+              fontsize={16}
+              imgsrc={""}
+              imgsrctwo={""}
+            />
+          </span>
+        )}
+
         <div
           className={`${
             !showdropdown && "hidden"
@@ -76,13 +86,19 @@ const Header = () => {
         </div>
       </div>
       <div className="sm:hidden flex items-center justify-center space-x-5 pr-2">
-        <Button
-          title=" Sign up"
-          width={0}
-          fontsize={16}
-          imgsrc={""}
-          imgsrctwo={""}
-        />
+        {signIn ? (
+          <Image src={bell} alt="bell" />
+        ) : (
+          <span onClick={() => setSignIn(true)}>
+            <Button
+              title=" Sign up"
+              width={0}
+              fontsize={16}
+              imgsrc={""}
+              imgsrctwo={""}
+            />
+          </span>
+        )}
         <span onClick={() => setShowmenu(!showMenu)} className="p-3">
           {showMenu ? (
             <Image src={close} alt="close" />

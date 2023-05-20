@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { purplecircle, browncircle, greencircle, book, Arrow } from "../assets";
+import { purplecircle, glocircle, greencircle, book, Arrow } from "../assets";
 
 export const ProductsDropdown = () => {
   return (
@@ -13,7 +13,7 @@ export const ProductsDropdown = () => {
         </span>
       </div>
       <div className="flex space-x-4">
-        <Image src={browncircle} alt="greencircle" />
+        <Image src={glocircle} alt="greencircle" />
         <span>
           <p>Publish</p>
           <p>Create, publish, collaborate</p>

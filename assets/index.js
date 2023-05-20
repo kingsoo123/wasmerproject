@@ -52,3 +52,7 @@ export { default as spiral } from "./spiral.svg";
 export { default as google } from "./google.svg";
 export { default as apple } from "./apple.svg";
 export { default as meta } from "./meta.svg";
+export { default as glocircle } from "./glocircle.svg";
+export { default as backarrow } from "./backarrow.svg";
+export { default as person } from "./person.svg";
+export { default as bell } from "./bell.svg";
