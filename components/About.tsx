@@ -30,7 +30,7 @@ const About = () => {
     <div className="w-full flex-col justify-center items-center mt-[90px]">
       {/* create the apps */}
       <div className="w-full flex">
-        <div className="sm:w-[70%] w-[80%] md:[60%] space-y-5 m-auto">
+        <div className="sm:w-[70%] w-[80%] space-y-5 m-auto">
           {/* first span */}
           <span className="w-full md:flex flex-row sm:space-x-4 justify-center items-center">
             <p className="sm:text-5xl text-[36px] font-semibold leading-snug break-normal font-gilroy text-center bigText">
