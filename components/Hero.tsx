@@ -39,10 +39,22 @@ const Hero = () => {
               className="circleFilt"
             />
           </div>
-          <div className="w-full h-full -space-y-10 mt-5">
-            <Image src={Innersix} alt="Innersix" />
-            <Image src={Innerfive} alt="Innersix" />
-            <Image src={Innerfour} alt="Innersix" />
+          <div className="w-full h-full -space-y-[10px] mt-5">
+            <Image
+              src={Innersix}
+              alt="Innersix"
+              className="w-full ml-auto h-[120px]"
+            />
+            <Image
+              src={Innerfive}
+              alt="Innersix"
+              className="w-full ml-auto h-[120px]"
+            />
+            <Image
+              src={Innerfour}
+              alt="Innersix"
+              className="w-full ml-auto h-[120px]"
+            />
           </div>
         </div>
         <div className="sm:w-[33%] w-[100%] h-full "></div>
