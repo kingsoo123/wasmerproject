@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
         <div className="sm:w-[33%] w-[100%] h-full "></div>
         <div className="hidden md:flex flex-row sm:w-[33%] h-full">
-          <div className="w-full h-full space-y-[0px] mt-5">
+          <div className="w-full h-full -space-y-[10px] mt-5">
             <Image src={Innerone} alt="Innersix" className="w-full h-[120px]" />
             <Image
               src={Innertwo}
