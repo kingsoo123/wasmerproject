@@ -30,10 +30,10 @@ const About = () => {
     <div className="w-full flex-col justify-center items-center mt-[90px]">
       {/* create the apps */}
       <div className="w-full flex">
-        <div className="lg:w-[80%] w-[80%] md:w-[100%]  space-y-5 m-auto">
+        <div className="sm:w-[70%] w-[80%] md:[60%] space-y-5 m-auto">
           {/* first span */}
           <span className="w-full md:flex flex-row sm:space-x-4 justify-center items-center">
-            <p className="sm:text-[48px] text-[36px] font-semibold leading-snug break-normal font-gilroy tracking-wider text-center">
+            <p className="sm:text-5xl text-[36px] font-semibold leading-snug break-normal font-gilroy text-center bigText">
               Create apps that
             </p>
             <Button
@@ -43,7 +43,7 @@ const About = () => {
               imgsrc={WhiteArrow}
               imgsrctwo={Greenbar}
             />
-            <p className="sm:text-[48px] text-[36px] font-semibold leading-snug break-normal font-gilroy tracking-wider sm:text-justify text-center">
+            <p className="sm:text-5xl text-[36px] font-semibold leading-snug break-normal font-gilroy sm:text-justify text-center bigText">
               everywhere.
             </p>
           </span>
@@ -56,13 +56,13 @@ const About = () => {
               imgsrc={WhiteArrow}
               imgsrctwo={Brownbar}
             />
-            <p className="sm:text-[48px] text-[36px] font-semibold leading-snug break-normal font-gilroy tracking-wider  text-center">
+            <p className="sm:text-5xl text-[36px] font-semibold leading-snug break-normal font-gilroy  text-center bigText">
               and share with the community
             </p>
           </div>
           {/* third span */}
           <span className="md:flex flex-row sm:space-x-4 justify-center items-center m-auto">
-            <p className="sm:text-[48px] text-[36px] font-semibold leading-snug break-normal font-gilroy tracking-wider text-center">
+            <p className="sm:text-5xl text-[36px] font-semibold leading-snug break-normal font-gilroy text-center bigText">
               and
             </p>
             <Button
@@ -72,7 +72,7 @@ const About = () => {
               imgsrc={WhiteArrow}
               imgsrctwo={Roundbar}
             />
-            <p className="sm:text-[48px] text-[36px] font-semibold leading-snug break-normal font-gilroy tracking-wider text-center">
+            <p className="sm:text-5xl text-[36px] font-semibold leading-snug break-normal font-gilroy tracking-wider text-center bigText">
               to the edge, globally.
             </p>
           </span>

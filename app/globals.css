@@ -131,3 +131,9 @@ body {
 .green {
   box-shadow: 3px 13px 20px #6db574, 20px 20px 40px #6db574;
 }
+
+@media only screen and (max-width: 952px) {
+  .bigText {
+    font-size: 2em !important;
+  }
+}
