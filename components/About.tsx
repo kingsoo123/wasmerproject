@@ -2,7 +2,6 @@
 
 import React from "react";
 import Button from "./Button";
-import { Carousel } from "@trendyol-js/react-carousel";
 import {
   Greenbar,
   WhiteArrow,
@@ -21,10 +20,11 @@ import {
   vercel,
   plane,
   instant,
+  groupcards,
+  groupcardsmobile,
 } from "../assets";
 import Image from "next/image";
 import PackageCard from "../components/PackageCard";
-import Cardtwo from "../components/Cardtwo";
 
 const About = () => {
   return (
@@ -261,10 +261,20 @@ const About = () => {
           </div>
         </div>
         <div className="w-full flex justify-center items-center mt-[100px]">
-          <div className="sm:w-[70%] w-full relative">
+          <div className="sm:w-[70%] w-[50%] relative">
             <div className="w-full flex justify-center items-center">
               {/* insert cards */}
-              <Cardtwo />
+
+              <Image
+                src={groupcards}
+                alt="groupcards"
+                className="hidden md:flex flex-row"
+              />
+              <Image
+                src={groupcardsmobile}
+                alt="groupcardsmobile"
+                className="md:hidden md:flex flex-row"
+              />
             </div>
             <div className="flex w-[full] justify-center items-center mt-4">
               <div className="sm:flex flex-row sm:w-[80%] w-[100%] justify-center items-center space-x-5">

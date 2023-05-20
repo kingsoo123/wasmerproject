@@ -56,3 +56,5 @@ export { default as glocircle } from "./glocircle.svg";
 export { default as backarrow } from "./backarrow.svg";
 export { default as person } from "./person.svg";
 export { default as bell } from "./bell.svg";
+export { default as groupcards } from "./groupcards.svg";
+export { default as groupcardsmobile } from "./groupcardsmobile.svg";
