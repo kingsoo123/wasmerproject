@@ -113,7 +113,7 @@ const About = () => {
                 alt="leftside"
                 className="sm:w-[280px] w-[100px] h-[230px] rotateCircle opacity-25"
               />
-              <div className="w-full flex-col">
+              <div className="w-full flex-col bg-red-500">
                 <span className="flex justify-center items-center mt-[40px]">
                   <div className="sm:w-[35%] w-[200px] flex justify-center items-center space-x-2 sm:flex-nowrap flex-wrap-reverse">
                     <Image src={docker} alt="leftside" />
@@ -125,7 +125,7 @@ const About = () => {
                   </div>
                 </span>
                 <span className="flex justify-center items-center m-auto p-2">
-                  <p className="sm:text-2xl text-[14px] text-white">
+                  <p className="sm:text-2xl text-[14px] text-white text-center">
                     Supports almost every programming language
                   </p>
                 </span>

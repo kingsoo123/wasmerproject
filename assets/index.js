@@ -30,8 +30,7 @@ export { default as vercel } from "./vercel.svg";
 export { default as packagelogo } from "./packagelogo.svg";
 export { default as slantline } from "./slantline.svg";
 export { default as likes } from "./likes.svg";
-export { default as django } from "./django.svg";
-export { default as wordpress } from "./wordpress.svg";
+
 export { default as twitter } from "./twitter.svg";
 export { default as linkedin } from "./linkedin.svg";
 export { default as facebook } from "./facebook.svg";
