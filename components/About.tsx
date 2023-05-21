@@ -260,7 +260,7 @@ const About = () => {
           </div>
         </div>
         <div className="w-full flex justify-center items-center mt-[100px]">
-          <div className="sm:w-[70%] w-[70%] relative">
+          <div className="sm:w-[70%] w-[90%] relative">
             <div className="w-full flex justify-center items-center">
               {/* insert cards */}
 
