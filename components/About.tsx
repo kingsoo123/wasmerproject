@@ -193,15 +193,15 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className=" w-full flex justify-center items-center mt-[100px]">
+        <div className=" w-full flex justify-center items-center mt-[100px] p-2">
           <div className="sm:w-[90%] w-full relative">
-            <div className="w-full md:flex flex-row justify-center items-center sm:space-x-4 sm:pl-0 pl-2">
+            <div className="w-full md:flex flex-row justify-center items-center sm:space-x-4 sm:pl-0">
               {/* insert cards */}
               {[1, 2, 3].map((item, id) => (
                 <PackageCard key={id} />
               ))}
             </div>
-            <div className="w-full flex justify-center items-center mt-8 sm:pl-o pl-4">
+            <div className="w-full flex justify-center items-center mt-8 sm:pl-0">
               <span className="sm:w-[50%] w-full sm:h-[118px] bg-[#0F0518] rounded-lg md:flex flex-row justify-between items-center p-5 orange">
                 <p className="text-[22px] text-white">
                   All languages, fully containerize {"&"} collaborative
