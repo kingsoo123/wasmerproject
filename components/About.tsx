@@ -195,7 +195,7 @@ const About = () => {
         </div>
         <div className=" w-full flex justify-center items-center mt-[100px]">
           <div className="sm:w-[90%] w-full relative">
-            <div className="w-full md:flex flex-row justify-center items-center sm:space-x-4 sm:pl-0 pl-4">
+            <div className="w-full md:flex flex-row justify-center items-center sm:space-x-4 sm:pl-0 pl-2">
               {/* insert cards */}
               {[1, 2, 3].map((item, id) => (
                 <PackageCard key={id} />
