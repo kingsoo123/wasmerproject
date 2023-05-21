@@ -105,7 +105,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className=" w-full flex justify-center items-center">
+        <div className=" w-full flex justify-center items-center p-2">
           <div className="sm:w-[70%] w-full relative">
             <div className="w-full h-full flex justify-between items-center">
               <Image
