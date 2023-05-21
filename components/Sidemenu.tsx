@@ -52,7 +52,7 @@ const Sidemenu = () => {
         sideMenuLinks === "default" ? "h-[100%]" : "h-[60%]"
       } right-0 top-[65px] ${
         sideMenuLinks === "default" ? "overflow-scroll" : ""
-      } p-2`}
+      } p-2 bg-white`}
     >
       <div className="flex-col pb-[300px]">
         {sideMenuLinks === "default" ? (
