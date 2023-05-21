@@ -33,7 +33,7 @@ const About = () => {
         <div className="sm:w-[70%] w-[80%] space-y-5 m-auto">
           {/* first span */}
           <span className="w-full md:flex flex-row sm:space-x-4 justify-center items-center">
-            <p className="sm:text-5xl text-[36px] font-semibold leading-snug break-normal font-gilroy text-center bigText">
+            <p className="md:text-5xl text-[36px] font-semibold leading-snug break-normal font-gilroy text-center bigText">
               Create apps that
             </p>
             <Button

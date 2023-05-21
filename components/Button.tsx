@@ -11,7 +11,7 @@ interface Props {
 const Button = ({ title, width, fontsize, imgsrc, imgsrctwo }: Props) => {
   return (
     <button
-      className={`flex justify-around items-center bg-[#0F0518] px-5 py-2 rounded-[72px] w-fit max-w-[${width}px] text-[#FBFBFC] text-[${fontsize}px] tracking-widest font-zeitung m-auto`}
+      className={`flex justify-around items-center bg-[#0F0518] px-5 py-2 rounded-[72px] w-fit max-w-[${width}px] text-[#FBFBFC] md:text-[14px] text-[${fontsize}px]  tracking-widest font-zeitung m-auto`}
     >
       {imgsrctwo && (
         <Image

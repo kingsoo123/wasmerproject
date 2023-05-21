@@ -40,8 +40,8 @@ const Header = () => {
           />
         </div>
       </div>
-      <div className="hidden w-1/2 h-full p-3 md:flex flex-row items-center justify-around space-x-2 relative">
-        <ul className="w-3/4 flex justify-around items-center font-gilroy cursor-pointer">
+      <div className="hidden w-1/2 h-full p-3 md:flex flex-row items-center justify-around md:space-x-2 relative">
+        <ul className="md:w-3/4 w-1/2 flex justify-around items-center font-gilroy cursor-pointer">
           <li
             className="hover:underline underline-offset-4"
             onMouseEnter={() => (
@@ -85,7 +85,7 @@ const Header = () => {
           {comp}
         </div>
       </div>
-      <div className="sm:hidden flex items-center justify-center space-x-5 pr-2">
+      <div className="md:hidden flex items-center justify-center space-x-5 pr-2">
         {signIn ? (
           <Image src={bell} alt="bell" />
         ) : (
